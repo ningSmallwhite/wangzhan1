@@ -1,0 +1,521 @@
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .containe {
+        font-size: 10px !important;
+    }
+
+    .tit {
+        padding-left: 20px;
+    }
+
+    .befor::after {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        color: #ffff;
+        transform: rotate(135deg);
+        top: 20px;
+        right: 40px;
+    }
+
+    #hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .cont {
+        margin: auto;
+        padding: 0 10px !important;
+        font-size: 12px !important;
+    }
+
+    .box span {
+        font-size: 10px !important;
+    }
+
+    .tit {
+        width: 70%;
+        height: 50px;
+        line-height: 50px !important;
+        margin-left: 10px;
+        padding-left: 40px;
+        background: linear-gradient(to right, #6abbfd, #ffff);
+        color: #ffff;
+        font-weight: 700;
+    }
+
+    .tit .tit_xh {
+        font-size: 14px !important;
+    }
+
+    .tit .tit_wz {
+        font-size: 14px !important;
+    }
+
+    .biaoti {
+        font-size: 22px !important;
+    }
+
+    .tu .tuxiang .renwu {
+        width: 100%;
+    }
+
+    .tu .tuxiang .name {
+        font-size: 8px !important;
+        padding: 0 16px;
+    }
+
+    .zhengshu {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .zhengshu .zs {
+        margin: auto !important;
+        width: 23% !important;
+        padding: 10px !important;
+    }
+
+    .new .liutong .new_wz {
+        font-size: 9px !important;
+        width: 100%;
+    }
+
+    .liu .liutong .liu_wz {
+        font-size: 10px !important;
+    }
+
+    .liu .liutong span img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .yi .right {
+        width: 80% !important;
+    }
+
+    .jishu .xinxi p {
+        line-height: 1.6 !important;
+    }
+
+    .jishu .titl {
+        margin: 0;
+    }
+
+    .jishu {
+        display: flex;
+        height: 170px !important;
+        border-radius: 20px;
+        margin: 10px auto;
+        background-color: #e5f3ff;
+    }
+
+    .jishu .tupian {
+        width: 40%;
+        height: 170px !important;
+    }
+
+    .jishu .xinxi {
+        padding: 0px 10px 0 15px !important;
+        width: 60%;
+    }
+
+    .jishu .xinxi .shuoming {
+        font-size: 8px !important;
+        letter-spacing: 1px;
+    }
+
+    .jishu .xinxi .titl {
+        margin: 10px 0 0 0 !important;
+        font-size: 10px !important;
+        color: #58b5ff;
+    }
+
+    .jishu .xinxi .baifenbi {
+        font-size: 10px;
+        font-weight: 700;
+        color: #58b5ff;
+    }
+
+    .dizhi {
+        font-size: 10px !important;
+    }
+
+    .wm .dianbao div {
+        font-size: 6px !important;
+    }
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0 !important;
+}
+
+.cont {
+    font-size: 14px;
+    padding: 0 10%;
+    color: #666666;
+}
+
+.box {
+    position: relative;
+    background-color: #5ab4ff;
+    color: #ffff;
+    font-size: 12px !important;
+    margin: auto !important;
+    padding: 0 !important;
+}
+
+.box span {
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.box span a {
+    color: #ffff;
+}
+
+.box .logo img {
+    width: 50px;
+}
+
+.imgs {
+    margin: 0 !important;
+}
+
+/* .imgs video {
+    width: 60%;
+    padding: 0 !important;
+    margin:20px 0 0 20%;
+} */
+
+.biaoti {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #8cd0ff;
+    margin: 60px auto;
+}
+
+.jianjie {
+    margin: auto;
+}
+
+.jianjie .wenzi .wangzhan {
+    color: #666666;
+    font-size: 16px;
+}
+
+.jianjie .wenzi p {
+    line-height: 20px !important;
+    word-break: break-all;
+}
+
+.faxing {
+    color: #57b4ff;
+    font-weight: 500;
+}
+
+.xulie {
+    margin: 40px auto 0px;
+}
+
+.xulie .lie span img {
+    margin-bottom: 24px;
+}
+
+.xulie .lie p {
+    color: #666666;
+    word-break: break-all;
+}
+
+.taibi {
+    margin-bottom: 40px;
+}
+
+.taibi p {
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.tit {
+    height: 50px;
+    line-height: 50px !important;
+    padding-left: 40px;
+    background: linear-gradient(to right, #6abbfd, #ffff);
+    color: #ffff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.tit .tit_xh {
+    font-size: 22px;
+}
+
+.tit .tit_wz {
+    font-size: 18px;
+}
+
+.tu {
+    margin: 0 20px 30px;
+}
+
+.tu .name {
+    margin-top: 6px;
+    color: #979797;
+    font-size: 12px;
+    padding: 0 40px;
+}
+
+.zhengshu {
+    width: 100%;
+}
+
+.zhengshu .zs {
+    width: 24% !important;
+    height: auto;
+    padding: 10px !important;
+}
+
+.fz {
+    margin: 30px 0 0;
+}
+
+.yi {
+    margin: 10px auto;
+    padding: 0 !important;
+}
+
+.yi .jieduan {
+    text-align: center;
+}
+
+
+.yi .right {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #77c1ff;
+    color: #ffff;
+    padding: 12px;
+    word-break: break-all;
+}
+
+.yi .left {
+    width: 50%;
+    font-size: 16px;
+}
+
+.yi .left .sh {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.jishu {
+    display: flex;
+    height: 240px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background-color: #e5f3ff;
+}
+
+.jishu .tupian {
+    width: 40%;
+    height: 240px;
+}
+
+.jishu .tupian img {
+    width: 100%;
+    height: 100%;
+}
+
+.jishu .dan {
+    border-radius: 20px 0 0 20px !important;
+}
+
+.jishu .shuang {
+    border-radius: 0 20px 20px 0 !important;
+}
+
+.jishu .xinxi {
+    padding: 15px 10px 0 20px;
+    width: 60%;
+}
+
+.jishu .titl {
+    font-size: 24px;
+    font-weight: 700;
+    color: #58b5ff;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.jishu .baifenbi {
+    font-size: 30px;
+    font-weight: 700;
+    color: #58b5ff;
+    line-height: 30px;
+}
+
+.jishu .xinxi .shuoming {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+
+
+.new .liutong {
+    padding: 0 !important;
+    margin: 30px 10px;
+}
+
+.new .liutong .new_wz {
+    font-size: 12px !important;
+    width: 100%;
+}
+
+.new .shui {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px !important;
+    font-weight: 700;
+    color: #8cd0ff;
+    text-align: center;
+}
+
+.fenhong {
+    color: rgba(102, 97, 97, 0.8);
+}
+
+.liu {
+    padding: 0 !important;
+    margin: 30px 0px;
+}
+
+.liu .liutong {
+    padding: 0 !important;
+}
+
+.liu .liutong span img {
+    width: 35%;
+}
+
+
+.liu .liutong .liu_wz {
+    font-size: 18px;
+    width: 100%;
+    color: #58b5ff;
+}
+
+.liu .liutong p {
+    margin-top: 10px !important;
+}
+
+.dizhi {
+    background-color: #e5f3ff;
+    text-align: center;
+    padding: 10px;
+    color: rgba(102, 97, 97, 0.8);
+}
+
+.chengxu .xuhao {
+    font-size: 28px !important;
+    font-weight: 700;
+    color: #8cd0ff;
+    padding: 20px 50px;
+}
+
+.zuihou {
+    width: 50%;
+}
+
+.aa,
+.bb,
+.cc,
+.dd,
+.ee {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.aa .wenzi,
+.bb .wenzi,
+.cc .wenzi,
+.dd .wenzi,
+.ee .wenzi {
+    background-color: #e5f3ff;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 22px;
+    /* letter-spacing: 1px; */
+    word-break: break-all;
+}
+
+.jiaru {
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.jiaru img {
+    height: 400px;
+}
+
+.jiaru .jiaru_wz p {
+    word-break: break-all;
+}
+
+.wm {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.wm .dianbao {
+    width: 10%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.wm .dianbao img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wm .dianbao div {
+    text-align: center;
+}
